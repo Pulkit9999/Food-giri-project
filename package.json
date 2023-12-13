@@ -1,0 +1,32 @@
+{
+  "name": "food-giri",
+  "version": "1.0.0",
+  "description": "This is Food Giri web app",
+  
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulkit9999/food-giri.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pulkit Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pulkit9999/food-giri/issues"
+  },
+  "homepage": "https://github.com/Pulkit9999/food-giri#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
