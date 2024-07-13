@@ -1,4 +1,7 @@
-export const restaurantList = [
+export const GET_RES_API_URL =
+  "https://www.zomato.com/webapi/searchapi.php?city=1";
+
+const restaurantList = [
   {
     type: "restaurant",
     data: {
@@ -1568,4 +1571,3 @@ export const restaurantList = [
     subtype: "basic",
   },
 ];
-
