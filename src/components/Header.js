@@ -1,9 +1,11 @@
 import { LOGO_URL } from "./utils/constants";
+import logo from "../assets/images/food-giri-img.png"
 const Header = () => {
+  
   return (
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} alt="burger" />
+        <img className="logo"  src={logo}  alt="burger" />
       </div>
       <div className="nav-items">
         <ul>
